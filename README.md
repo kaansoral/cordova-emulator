@@ -1,4 +1,4 @@
-Cordova Emulator for Web/Chrome to Ease Debugging
+Cordova Emulator for Web/Chrome
 ================
 
 I'm sure you all know how complicated and frustrating it is to debug/inspect a cordova/phonegap app. Remote inspectors like weinre are not very useful. Up to now you could never inspect and debug a cordova app like you are debugging/inspecting a webpage with Chrome Developer Tools, well now you can! By doing exactly that! YEY!
