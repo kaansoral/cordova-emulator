@@ -19,3 +19,5 @@ The method is very simple, the idea is to run a seperate Chrome session without 
 If you check out the emulator.js file you will see that it's an extremely simple method, you are supposed to edit and improve emulator.js whenever you need an additional feature to suppress errors. You will see that I implemented some placeholder plugins. Check out the Console at Chrome and implement workarounds at emulator.js whenever you discover issues.
 
 I strongly suggest utilizing the Chrome Timeline, by doing so I eliminated many performance issues of my cordova app, look out for things to prevent repaints and layouts (especially layouts, some very simple changes prevent layouts and improve the performance a lot!).
+
+<b>Feel free to utilize the "Issues" tab as a discussion place for common webkit/android/device issues, gimmicks, methods, base styles</b>
