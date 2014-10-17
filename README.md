@@ -3,7 +3,7 @@ Cordova Emulator for Web/Chrome
 
 I'm sure you all know how complicated and frustrating it is to debug/inspect a cordova/phonegap app. Remote inspectors like weinre are not very useful. Up to now you could never inspect and debug a cordova app like you are debugging/inspecting a webpage with Chrome Developer Tools, well now you can! By doing exactly that! YEY!
 
-I had the idea to simplify/convert my app to debug it on the browser, while pursuing that idea I found this extremely simply and extremely useful method. I've eliminated countless very simple yet impossible to pinpoint issues right after I built this emulator, I can't describe what a joy it was, but I'm guessing you are about to experience it.
+I had the idea to simplify/convert my app to debug it on the browser, while pursuing that idea I found this extremely simple and extremely useful method. I've eliminated countless very simple yet impossible to pinpoint issues right after I built this emulator, I can't describe what a joy it was, but I'm guessing you are about to experience it yourself.
 
 <h1>How To</h1>
 <ul>
@@ -11,7 +11,7 @@ I had the idea to simplify/convert my app to debug it on the browser, while purs
   <li>Replace cordova.js with emulator.js at the emulator.html</li>
   <li><a href="http://lmgtfy.com/?q=where+is+the+chrome+executable" target="_blank">Find the chrome executable in your system (Windows/Linux/Mac etc.)</a></li>
   <li>Run <code>/cygdrive/c/Users/USER_NAME/AppData/Local/Google/Chrome/Application/chrome.exe --user-data-dir="C:/ANY_DIRECTORY/chrome-dev-session" --disable-web-security</code></li>
-  <li>Open the enulator.html locally, that's it!</li>
+  <li>Open the emulator.html locally, that's it!</li>
 </ul>
 
 The method is very simple, the idea is to run a seperate Chrome session without the web security features to access the local files and remote files freely as you do in a cordova app, thanks to Chtome, building a cordova emulator was extremely simple
